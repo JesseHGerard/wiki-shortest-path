@@ -24,15 +24,15 @@ npm install
 **Run**
 
 ```zsh
-npm run start [START-ARTICLE-NAME] [END-ARTICLE-NAME]
+npm run start START-ARTICLE-NAME] [END-ARTICLE-NAME]
 ```
 
 **Example**
 
-If you want to find the links between [https://en.wikipedia.org/wiki/Santa_Barbara,_California] and [https://en.wikipedia.org/wiki/Santa_Barbara,_California], use the portion of the urls after "/wiki/" as your "start" as the first and second arguments to `npm run start`
+If you want to find the links between https://en.wikipedia.org/wiki/Santa_Barbara,_California and https://en.wikipedia.org/wiki/Santa_Barbara,_California, use the portion of the urls after "/wiki/" as your "start" as the first and second arguments to `npm run start`
 
 ```zsh
-npm run start Santa_Barbara,_California https://en.wikipedia.org/wiki/Amazon_Alexa
+npm run start Santa_Barbara,_California Amazon_Alexa
 ```
 
 When a path has been found, the console output will look something like this:
