@@ -1,0 +1,32 @@
+{
+  "name": "wiki-shortest-path",
+  "version": "0.0.1",
+  "description": "Degrees of separation between wiki articles ",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "npx typescript --watch",
+    "dev": "npx nodemon ./dist",
+    "start": "node ./dist",
+    "build": "npx typescript --build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JesseHGerard/wiki-shortest-path.git"
+  },
+  "author": "Jesse Gerard",
+  "license": "none",
+  "bugs": {
+    "url": "https://github.com/JesseHGerard/wiki-shortest-path/issues"
+  },
+  "homepage": "https://github.com/JesseHGerard/wiki-shortest-path#readme",
+  "dependencies": {
+    "@types/cheerio": "^0.22.21",
+    "cheerio": "^1.0.0-rc.3",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "typescript": "^4.0.2"
+  }
+}
